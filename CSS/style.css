@@ -5,18 +5,22 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     padding: 20px;
 }
 
-header, main, footer {
-    width: 100%;
-    max-width: 800px; 
-    margin: 0 auto;
-    text-align: center;  
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 1rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
