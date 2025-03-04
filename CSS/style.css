@@ -83,3 +83,24 @@ input[type="email"]:focus {
     align-items: center;
     margin-top: 1rem;
 }
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    border: 2px solid #888888;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    background: #222222;
+}
+
+input[type="checkbox"]:hover {
+    border-color: #ff4500;
+}
+
+input[type="checkbox"]:checked {
+    background: #ff4500;
+    border-color: #ff4500;
+}
