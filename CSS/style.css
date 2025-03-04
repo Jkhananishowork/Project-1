@@ -68,3 +68,10 @@ input[type="email"] {
     font-size: 1rem;
     transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    background: #444444;
+    box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+}
