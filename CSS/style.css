@@ -57,3 +57,14 @@ label {
     margin-bottom: 0.5rem;
     color: white;
 }
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #333333;
+    font-size: 1rem;
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
