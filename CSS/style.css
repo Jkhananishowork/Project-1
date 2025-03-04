@@ -75,3 +75,11 @@ input[type="email"]:focus {
     background: #444444;
     box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
 }
+
+/* checkbox styling */
+
+.checkbox-agreement {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
