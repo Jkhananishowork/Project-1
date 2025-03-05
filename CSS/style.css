@@ -140,6 +140,10 @@ button[type="submit"]:hover {
     transform: scale(1.05);
 }
 
+button[type="submit"]:active {
+    transform: scale(0.95);
+}
+
 /* footer */ 
 
 footer {
