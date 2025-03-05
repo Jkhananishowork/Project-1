@@ -33,6 +33,10 @@ form {
     text-align: center;
 }
 
+button {
+    font-family: 'Goldman', sans-serif !important;
+}
+
 header h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
