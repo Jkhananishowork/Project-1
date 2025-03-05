@@ -70,7 +70,8 @@ label {
 
 input[type="text"],
 input[type="email"] {
-    width: 100%;
+    width: auto;
+    min-width: 150px;
     border: none;
     border-radius: 5px;
     color: white;
