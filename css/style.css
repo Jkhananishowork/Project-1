@@ -178,6 +178,7 @@ footer p {
     button[type="submit"] {
         font-size: 1.1rem;
         padding: 18px;
+    }
 }
 
 @media (min-width: 768px) {
